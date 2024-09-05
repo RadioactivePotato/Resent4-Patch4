@@ -303,7 +303,9 @@
 					const relayId = Math.floor(Math.random() * 3);
 					window.eaglercraftXOpts = {
 						container: "game_frame",
-						assetsURI: "assets.epk",
+						//for vercel badwidth limit
+						assetsURI: "https://radioactivepotato.github.io/cdn/resent4p4-assets.epk",
+						//assetsURI: "assets.epk",
 						localesURI: "lang/",
 						servers: [
 							{ addr: "wss://mc.arch.lol/", name: "ArchMC" },
