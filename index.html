@@ -11,8 +11,7 @@
 		<meta property="og:title" content="Resent 1.8" />
 		<meta property="og:description" content="Resent 1.8" />
 		<link type="image/png" rel="shortcut icon" href="favicon.png" id="favicon"/>
-		<!-- <script type="text/javascript" src="./classes.js"></script> ## Vercel file transfer limit temp fix-->
-		<script type="text/javascript" src="https://radioactivepotato.github.io/cdn/classes.js"></script>
+		<script type="text/javascript" src="./classes.js"></script>
 		<style>
             @font-face {
                 font-family: Aller;
@@ -304,9 +303,7 @@
 					const relayId = Math.floor(Math.random() * 3);
 					window.eaglercraftXOpts = {
 						container: "game_frame",
-						//for vercel badwidth limit
-						assetsURI: "https://radioactivepotato.github.io/cdn/resent4p4-assets.epk",
-						//assetsURI: "assets.epk",
+						assetsURI: "assets.epk",
 						localesURI: "lang/",
 						servers: [
 							{ addr: "wss://mc.arch.lol/", name: "ArchMC" },
